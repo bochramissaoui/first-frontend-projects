@@ -1,0 +1,290 @@
+body {
+	margin: 0;
+	padding: 0;
+background-color: #fff;
+
+}
+header {
+	justify-content: space-between;
+	align-items: center;	
+	background-color: #000;
+	display: flex;
+   width: 100%;
+	height: 100px;
+	z-index: 1;
+}
+
+header img {
+margin-left: 0;
+width: 300px;
+height: 8rem;
+text-align: right;
+}
+
+header nav {
+	height: 80px;
+	width: 100%;
+
+}
+header nav ul {
+	float: right;
+	margin-right: 40px;
+}
+header nav li {
+	display: inline-block;
+	margin: 0 8px;
+	margin-top: 10px;
+}
+header nav .n {
+	text-decoration: none;
+    margin-right: 40px;
+	font-size:25px;
+	color: #fff;
+}
+header nav .n:hover {
+	border-bottom: .1rem solid white;
+	padding-bottom: .5rem;
+}
+header div {
+	color: #fff;
+	font-size: 30px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+#menu {
+	display: none;
+}
+ #menu:hover {
+	color: yellow;
+}
+@media (max-width: 991px){
+	html{
+		font-size: 60%;
+
+	}
+	header{
+		padding: 15px 20px;
+	}
+	
+  }
+@media (max-width: 991px){
+#menu {
+	display: inline-block;
+}
+header .navbar{
+	 position: absolute;
+	 top: 100%;
+	 right: -100%;
+	 background: #fff;
+	 width: 30rem ;
+	 height: calc(100vh - 9.5rem);
+  }
+  header .navbar.active {
+  	right: 0;
+  }
+
+  .header .navbar a  {
+  	display: ;
+  	color: #000;
+  	margin: 1.5rem;
+  	padding: .5rem;
+  	font-size: 2rem;
+ 
+  }
+}
+nav .client {
+	background-color: #191970;
+    border-radius: 20px;
+	cursor: pointer;
+	width: 160px;
+	height: 50px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+nav .client:hover {
+	letter-spacing: 2px;
+}
+.home {
+	
+	height: 300px;
+	background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.6)),url(act.jpg) ;
+	background-size: cover;
+	
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.home p {
+padding-top: 40px;
+color: #fff;
+text-align: center;
+font-size: 65px;
+font-weight: bold;
+
+}
+.ab h1 {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 60px;
+	color: #191970;
+	font-weight: bold;
+}
+.serv {
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	min-height: 105vh;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.container .box {
+	position: relative;
+	width: 450px;
+	height: 300px;
+	padding: 40px;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+	transition: 0.6s;
+	
+}
+.container .box .icon {
+	width: 80%;
+	height: 60%;
+	color: #000;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 50%;
+	font-size: 40px;
+	font-weight: 700;
+}
+.container .box:hover {
+	cursor: pointer; ;
+	height: 350px;
+}
+.cont h3 {
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+}
+.btn a {
+	background-color: #191970;
+  border-radius: 10px;
+	cursor: pointer;
+	padding: 7px 20px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.btn a:hover {
+	letter-spacing: .1rem;
+	color: #fff;
+
+}
+.dec {
+	margin-top: 30px;
+	height: 350px;
+	background-image: url(deb.png);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.dec h1 , a {
+	padding-top: 80px;
+}
+.dec h1 {
+	font-size: 70px;
+	font-weight: bold;
+	color: #191970;
+}
+.dec a {
+	text-decoration: none;
+	font-size: 34px;
+	margin-right: 100px;
+	margin-left: 100px;
+	color: #000;
+	cursor: pointer;
+}
+.dec a:hover{
+	border-bottom: 2px solid #000;
+}
+footer {
+	margin-top: 30px;
+	bottom: 0px;
+	width: 100%;
+	height:40%;
+	background: #111;
+}
+.main-cont{
+	display: flex;
+}
+.main-cont .box {
+	flex-basis: 50%;
+	padding: 10px 20px;
+   text-align: center;
+}
+.box h2 {
+	font-size: 26px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: 		#f5f5f5;
+	font-weight: bold;
+}
+.left ul {
+	list-style: none;
+	line-height: 50px;
+
+}
+.left a {
+	text-decoration: none;
+	color:#fff ;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+.center {
+	text-decoration: none;
+	color:#fff ;
+	font-size: 20px;
+	padding-bottom: 15px;
+	line-height: 50px;
+}
+.center .email a {
+	text-decoration: none;
+	color: #fff;
+}
+.right {
+    color: #fff;
+    line-height: 30px;
+}
+.right .btn {
+	margin-top: 10px;
+	display: inline-block;
+	padding: .3rem 2rem;
+	font-size: 15px ;
+	color: #fff;
+	background: #191970;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 20px;
+
+}
+.btn:hover {
+	letter-spacing: .2rem;
+}
